@@ -1,0 +1,125 @@
+body * {
+    outline: 1px solid pink;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+div.main-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+}
+div.top-container div.left-nav p{
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: 30px;
+}
+div.left-nav {
+    display: inline-block;
+    position: relative;
+}
+div.right-nav {
+    display: inline-block;
+    position: relative;
+    left: 600px;
+}
+div.top-container div.right-nav p{
+    display: inline-block;
+    margin: 15px;
+   
+}
+div.right-nav img {
+    display: inline-block;
+    width: 15px;
+    height: auto;
+}
+div.search-container {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+div.search-container img {
+    display: inline-block;
+    width: 90px;
+    height: auto;
+    position: relative;
+    top: 15px;
+    margin-left: 30px;
+}
+div.search {
+    display: inline-block;
+    width: 840px;
+    height: 30px;
+    border: 5px solid rgb(9, 8, 8);
+    border-radius: 5px;
+    position: relative;
+    bottom: 15px;
+    left: 250px;
+}
+
+div.search-container p#search {
+    background-color: #70E2E3;
+    position: relative;
+    bottom: 15px;
+    left: 252px;
+    padding: 10px 50px 10px 50px;
+}
+div.search-container p {
+    position: relative;
+    bottom: 15px;
+    left: 250px;
+}
+section.categories p {
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: 150px;
+    
+}
+#home {
+    border-bottom: 1px solid black;
+}
+div.middle-container {
+    background-color: #70E2E3;
+}
+section.text-content {
+    display: inline-block;
+    width: 284px;
+    height: 300px;
+    margin: 30px;
+}
+section.text-content p {
+    width: fit-content;
+    padding: 15px;
+}
+section.product-highlight {
+    display: inline-block;
+    width: 900px;
+    height: 100px;
+}
+section.product-highlight div {
+    display: inline-block;
+   
+}
+section.product-highlight p{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+div.bottom-container section.off-deals h3,p {
+    display: inline-block;
+    width: fit-content;
+}
+
+
+
+
+
+.right-arrow {
+    width: 10px;
+}
